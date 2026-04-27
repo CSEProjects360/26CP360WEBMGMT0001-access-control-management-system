@@ -1,0 +1,5 @@
+bin
+obj
+.npm-cache
+node_modules
+data

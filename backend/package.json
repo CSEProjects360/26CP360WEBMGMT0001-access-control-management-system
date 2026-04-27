@@ -1,0 +1,10 @@
+{
+  "name": "access-control-management-system-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"require('fs').accessSync('src/StudentFactory.Api.csproj'); require('fs').accessSync('src/Program.cs')\"",
+    "db:migrate": "dotnet StudentFactory.Api.dll --factory.task=migrate",
+    "db:seed": "dotnet StudentFactory.Api.dll --factory.task=seed"
+  }
+}

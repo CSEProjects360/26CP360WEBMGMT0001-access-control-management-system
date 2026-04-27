@@ -1,0 +1,29 @@
+{
+  "projectName": "access-control-management-system",
+  "template": "management",
+  "projectCategory": {
+    "id": "security",
+    "displayName": "Cyber Security Project",
+    "description": "Authentication, authorization, audit, monitoring, threat detection, and access-control projects."
+  },
+  "stack": {
+    "id": "react-csharp",
+    "displayName": "React + ASP.NET Core",
+    "frontend": "react",
+    "backend": "aspnet-core",
+    "starter": "react-csharp-starter",
+    "status": "implemented"
+  },
+  "database": {
+    "id": "postgres",
+    "displayName": "PostgreSQL",
+    "typeormType": "postgres",
+    "driverPackage": "pg",
+    "dockerService": "postgres",
+    "dockerImage": "postgres:16-alpine",
+    "defaultPort": 5432,
+    "hostPort": 55432,
+    "status": "implemented"
+  },
+  "generatedAt": "2026-04-27T01:27:20.672Z"
+}

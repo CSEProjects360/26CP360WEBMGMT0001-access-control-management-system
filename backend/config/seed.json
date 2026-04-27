@@ -1,0 +1,485 @@
+{
+  "admin": {
+    "email": "admin@example.com",
+    "password": "Admin@123",
+    "displayName": "System Admin",
+    "role": "admin"
+  },
+  "categories": [
+    "Access Control Identities",
+    "Access Control Access Requests",
+    "Access Control Devices",
+    "Access Control Incidents",
+    "Access Control Audit Logs"
+  ],
+  "departments": [
+    "Security Admin",
+    "Access Manager",
+    "Compliance Officer",
+    "System Auditor"
+  ],
+  "records": [
+    {
+      "title": "Access Control Incident Alert",
+      "description": "Identity Code: ACI-2026-0001 | Name: Aarav Sharma | Category: Access Operations | Owner Name: Aarav Sharma",
+      "status": "Active"
+    },
+    {
+      "title": "Access Control Audit Log Review",
+      "description": "Identity Code: ACI-2026-0002 | Name: Diya Patel | Category: Access Service | Owner Name: Diya Patel",
+      "status": "Pending Review"
+    },
+    {
+      "title": "Access Control Threat Signal",
+      "description": "Identity Code: ACI-2026-0003 | Name: Rohan Mehta | Category: Access Review | Owner Name: Rohan Mehta",
+      "status": "Approved"
+    },
+    {
+      "title": "Access Control Access Request",
+      "description": "Identity Code: ACI-2026-0004 | Name: Ananya Rao | Category: Access Support | Owner Name: Ananya Rao",
+      "status": "In Progress"
+    },
+    {
+      "title": "Access Control Incident Alert",
+      "description": "Identity Code: ACI-2026-0005 | Name: Kabir Singh | Category: Access Operations | Owner Name: Kabir Singh",
+      "status": "Closed"
+    },
+    {
+      "title": "Access Control Audit Log Review",
+      "description": "Identity Code: ACI-2026-0006 | Name: Isha Nair | Category: Access Service | Owner Name: Isha Nair",
+      "status": "Escalated"
+    },
+    {
+      "title": "Access Control Threat Signal",
+      "description": "Identity Code: ACI-2026-0007 | Name: Arjun Verma | Category: Access Review | Owner Name: Arjun Verma",
+      "status": "Active"
+    },
+    {
+      "title": "Access Control Access Request",
+      "description": "Identity Code: ACI-2026-0008 | Name: Meera Iyer | Category: Access Support | Owner Name: Meera Iyer",
+      "status": "Pending Review"
+    },
+    {
+      "title": "Access Control Incident Alert",
+      "description": "Identity Code: ACI-2026-0009 | Name: Vivaan Joshi | Category: Access Operations | Owner Name: Vivaan Joshi",
+      "status": "Approved"
+    },
+    {
+      "title": "Access Control Audit Log Review",
+      "description": "Identity Code: ACI-2026-0010 | Name: Sara Khan | Category: Access Service | Owner Name: Sara Khan",
+      "status": "In Progress"
+    }
+  ],
+  "transactions": [
+    {
+      "type": "Authorize Access",
+      "amount": 100,
+      "note": "Authorize Access for access control with clear steps, ownership, and audit-ready status updates."
+    },
+    {
+      "type": "Log Incident",
+      "amount": 200,
+      "note": "Log Incident for access control with clear steps, ownership, and audit-ready status updates."
+    },
+    {
+      "type": "Review Security Audit",
+      "amount": 300,
+      "note": "Review Security Audit for access control with clear steps, ownership, and audit-ready status updates."
+    }
+  ],
+  "domainEntities": [
+    {
+      "name": "AccessControlIdentity",
+      "plural": "Access Control Identities",
+      "route": "/access-control-identities",
+      "seed": [
+        {
+          "identityCode": "ACI-2026-0001",
+          "name": "Aarav Sharma",
+          "category": "Access Operations",
+          "ownerName": "Aarav Sharma",
+          "status": "Active",
+          "accessLevel": 14,
+          "department": "Access Operations",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "identityCode": "ACI-2026-0002",
+          "name": "Diya Patel",
+          "category": "Access Service",
+          "ownerName": "Diya Patel",
+          "status": "Pending Review",
+          "accessLevel": 21,
+          "department": "Access Service",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "identityCode": "ACI-2026-0003",
+          "name": "Rohan Mehta",
+          "category": "Access Review",
+          "ownerName": "Rohan Mehta",
+          "status": "Approved",
+          "accessLevel": 28,
+          "department": "Access Review",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "identityCode": "ACI-2026-0004",
+          "name": "Ananya Rao",
+          "category": "Access Support",
+          "ownerName": "Ananya Rao",
+          "status": "In Progress",
+          "accessLevel": 35,
+          "department": "Access Support",
+          "title": "Access Control Access Request"
+        },
+        {
+          "identityCode": "ACI-2026-0005",
+          "name": "Kabir Singh",
+          "category": "Access Operations",
+          "ownerName": "Kabir Singh",
+          "status": "Closed",
+          "accessLevel": 42,
+          "department": "Access Operations",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "identityCode": "ACI-2026-0006",
+          "name": "Isha Nair",
+          "category": "Access Service",
+          "ownerName": "Isha Nair",
+          "status": "Escalated",
+          "accessLevel": 49,
+          "department": "Access Service",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "identityCode": "ACI-2026-0007",
+          "name": "Arjun Verma",
+          "category": "Access Review",
+          "ownerName": "Arjun Verma",
+          "status": "Active",
+          "accessLevel": 56,
+          "department": "Access Review",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "identityCode": "ACI-2026-0008",
+          "name": "Meera Iyer",
+          "category": "Access Support",
+          "ownerName": "Meera Iyer",
+          "status": "Pending Review",
+          "accessLevel": 63,
+          "department": "Access Support",
+          "title": "Access Control Access Request"
+        },
+        {
+          "identityCode": "ACI-2026-0009",
+          "name": "Vivaan Joshi",
+          "category": "Access Operations",
+          "ownerName": "Vivaan Joshi",
+          "status": "Approved",
+          "accessLevel": 70,
+          "department": "Access Operations",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "identityCode": "ACI-2026-0010",
+          "name": "Sara Khan",
+          "category": "Access Service",
+          "ownerName": "Sara Khan",
+          "status": "In Progress",
+          "accessLevel": 77,
+          "department": "Access Service",
+          "title": "Access Control Audit Log Review"
+        }
+      ]
+    },
+    {
+      "name": "AccessControlAccessRequest",
+      "plural": "Access Control Access Requests",
+      "route": "/access-control-access-requests",
+      "seed": [
+        {
+          "accessRequestCode": "ACAR-2026-0001",
+          "name": "Aarav Sharma",
+          "category": "Access Operations",
+          "ownerName": "Aarav Sharma",
+          "status": "Active",
+          "requestNo": "ACAR-2026-0001",
+          "requestedArea": "Pune",
+          "approvalStatus": "Active",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "accessRequestCode": "ACAR-2026-0002",
+          "name": "Diya Patel",
+          "category": "Access Service",
+          "ownerName": "Diya Patel",
+          "status": "Pending Review",
+          "requestNo": "ACAR-2026-0002",
+          "requestedArea": "Mumbai",
+          "approvalStatus": "Pending Review",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "accessRequestCode": "ACAR-2026-0003",
+          "name": "Rohan Mehta",
+          "category": "Access Review",
+          "ownerName": "Rohan Mehta",
+          "status": "Approved",
+          "requestNo": "ACAR-2026-0003",
+          "requestedArea": "Bengaluru",
+          "approvalStatus": "Approved",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "accessRequestCode": "ACAR-2026-0004",
+          "name": "Ananya Rao",
+          "category": "Access Support",
+          "ownerName": "Ananya Rao",
+          "status": "In Progress",
+          "requestNo": "ACAR-2026-0004",
+          "requestedArea": "Hyderabad",
+          "approvalStatus": "In Progress",
+          "title": "Access Control Access Request"
+        },
+        {
+          "accessRequestCode": "ACAR-2026-0005",
+          "name": "Kabir Singh",
+          "category": "Access Operations",
+          "ownerName": "Kabir Singh",
+          "status": "Closed",
+          "requestNo": "ACAR-2026-0005",
+          "requestedArea": "Ahmedabad",
+          "approvalStatus": "Closed",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "accessRequestCode": "ACAR-2026-0006",
+          "name": "Isha Nair",
+          "category": "Access Service",
+          "ownerName": "Isha Nair",
+          "status": "Escalated",
+          "requestNo": "ACAR-2026-0006",
+          "requestedArea": "Jaipur",
+          "approvalStatus": "Escalated",
+          "title": "Access Control Audit Log Review"
+        }
+      ]
+    },
+    {
+      "name": "AccessControlDevice",
+      "plural": "Access Control Devices",
+      "route": "/access-control-devices",
+      "seed": [
+        {
+          "deviceCode": "ACD-2026-0001",
+          "name": "Aarav Sharma",
+          "category": "Access Operations",
+          "ownerName": "Aarav Sharma",
+          "status": "Active",
+          "deviceType": "Access Operations",
+          "location": "Pune",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "deviceCode": "ACD-2026-0002",
+          "name": "Diya Patel",
+          "category": "Access Service",
+          "ownerName": "Diya Patel",
+          "status": "Pending Review",
+          "deviceType": "Access Service",
+          "location": "Mumbai",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "deviceCode": "ACD-2026-0003",
+          "name": "Rohan Mehta",
+          "category": "Access Review",
+          "ownerName": "Rohan Mehta",
+          "status": "Approved",
+          "deviceType": "Access Review",
+          "location": "Bengaluru",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "deviceCode": "ACD-2026-0004",
+          "name": "Ananya Rao",
+          "category": "Access Support",
+          "ownerName": "Ananya Rao",
+          "status": "In Progress",
+          "deviceType": "Access Support",
+          "location": "Hyderabad",
+          "title": "Access Control Access Request"
+        },
+        {
+          "deviceCode": "ACD-2026-0005",
+          "name": "Kabir Singh",
+          "category": "Access Operations",
+          "ownerName": "Kabir Singh",
+          "status": "Closed",
+          "deviceType": "Access Operations",
+          "location": "Ahmedabad",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "deviceCode": "ACD-2026-0006",
+          "name": "Isha Nair",
+          "category": "Access Service",
+          "ownerName": "Isha Nair",
+          "status": "Escalated",
+          "deviceType": "Access Service",
+          "location": "Jaipur",
+          "title": "Access Control Audit Log Review"
+        }
+      ]
+    },
+    {
+      "name": "AccessControlIncident",
+      "plural": "Access Control Incidents",
+      "route": "/access-control-incidents",
+      "seed": [
+        {
+          "incidentCode": "ACI-2026-0001",
+          "name": "Aarav Sharma",
+          "category": "Access Operations",
+          "ownerName": "Aarav Sharma",
+          "status": "Active",
+          "incidentNo": "ACI-2026-0001",
+          "severity": "High",
+          "reportedDate": "2026-05-01",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "incidentCode": "ACI-2026-0002",
+          "name": "Diya Patel",
+          "category": "Access Service",
+          "ownerName": "Diya Patel",
+          "status": "Pending Review",
+          "incidentNo": "ACI-2026-0002",
+          "severity": "Medium",
+          "reportedDate": "2026-05-02",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "incidentCode": "ACI-2026-0003",
+          "name": "Rohan Mehta",
+          "category": "Access Review",
+          "ownerName": "Rohan Mehta",
+          "status": "Approved",
+          "incidentNo": "ACI-2026-0003",
+          "severity": "Low",
+          "reportedDate": "2026-05-03",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "incidentCode": "ACI-2026-0004",
+          "name": "Ananya Rao",
+          "category": "Access Support",
+          "ownerName": "Ananya Rao",
+          "status": "In Progress",
+          "incidentNo": "ACI-2026-0004",
+          "severity": "Critical",
+          "reportedDate": "2026-05-04",
+          "title": "Access Control Access Request"
+        },
+        {
+          "incidentCode": "ACI-2026-0005",
+          "name": "Kabir Singh",
+          "category": "Access Operations",
+          "ownerName": "Kabir Singh",
+          "status": "Closed",
+          "incidentNo": "ACI-2026-0005",
+          "severity": "High",
+          "reportedDate": "2026-05-05",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "incidentCode": "ACI-2026-0006",
+          "name": "Isha Nair",
+          "category": "Access Service",
+          "ownerName": "Isha Nair",
+          "status": "Escalated",
+          "incidentNo": "ACI-2026-0006",
+          "severity": "Medium",
+          "reportedDate": "2026-05-06",
+          "title": "Access Control Audit Log Review"
+        }
+      ]
+    },
+    {
+      "name": "AccessControlAuditLog",
+      "plural": "Access Control Audit Logs",
+      "route": "/access-control-audit-logs",
+      "seed": [
+        {
+          "auditLogCode": "ACAL-2026-0001",
+          "name": "Aarav Sharma",
+          "category": "Access Operations",
+          "ownerName": "Aarav Sharma",
+          "status": "Active",
+          "auditNo": "ACAL-2026-0001",
+          "eventType": "Access Operations",
+          "riskLevel": "High",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "auditLogCode": "ACAL-2026-0002",
+          "name": "Diya Patel",
+          "category": "Access Service",
+          "ownerName": "Diya Patel",
+          "status": "Pending Review",
+          "auditNo": "ACAL-2026-0002",
+          "eventType": "Access Service",
+          "riskLevel": "Medium",
+          "title": "Access Control Audit Log Review"
+        },
+        {
+          "auditLogCode": "ACAL-2026-0003",
+          "name": "Rohan Mehta",
+          "category": "Access Review",
+          "ownerName": "Rohan Mehta",
+          "status": "Approved",
+          "auditNo": "ACAL-2026-0003",
+          "eventType": "Access Review",
+          "riskLevel": "Low",
+          "title": "Access Control Threat Signal"
+        },
+        {
+          "auditLogCode": "ACAL-2026-0004",
+          "name": "Ananya Rao",
+          "category": "Access Support",
+          "ownerName": "Ananya Rao",
+          "status": "In Progress",
+          "auditNo": "ACAL-2026-0004",
+          "eventType": "Access Support",
+          "riskLevel": "Critical",
+          "title": "Access Control Access Request"
+        },
+        {
+          "auditLogCode": "ACAL-2026-0005",
+          "name": "Kabir Singh",
+          "category": "Access Operations",
+          "ownerName": "Kabir Singh",
+          "status": "Closed",
+          "auditNo": "ACAL-2026-0005",
+          "eventType": "Access Operations",
+          "riskLevel": "High",
+          "title": "Access Control Incident Alert"
+        },
+        {
+          "auditLogCode": "ACAL-2026-0006",
+          "name": "Isha Nair",
+          "category": "Access Service",
+          "ownerName": "Isha Nair",
+          "status": "Escalated",
+          "auditNo": "ACAL-2026-0006",
+          "eventType": "Access Service",
+          "riskLevel": "Medium",
+          "title": "Access Control Audit Log Review"
+        }
+      ]
+    }
+  ]
+}
